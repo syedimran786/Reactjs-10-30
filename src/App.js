@@ -1,8 +1,6 @@
 
 import './App.css';
-import Addremovecompenent from './components/Addremovecompenent';
-import LifecycleMethods from './components/LifecycleMethods';
-import UseEffectHook from './components/UseEffectHook';
+import UseStateHook1 from './hooks/UseStateHook1';
 
 
 
@@ -10,8 +8,8 @@ function App() {
   return (
     <div className="App">
      
-    <Addremovecompenent/>
-    {/* <UseEffectHook/> */}
+     <UseStateHook1/>
+    
     </div>
   );
 }
