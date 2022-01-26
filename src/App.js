@@ -1,7 +1,7 @@
 
 import './App.css';
-import MultipleUseReducers from './hooks/MultipleUseReducers';
-import UseReducerWithObject from './hooks/UseReducerWithObject';
+import UseRef from './hooks/UseRef';
+
 
 
 
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
      
-     <MultipleUseReducers/>
+     <UseRef/>
     
     </div>
   );
